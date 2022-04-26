@@ -48,6 +48,7 @@ position: relative;
   font-weight: 600;
 
 }
+/* Aquí están los principales valores del menú que es usado en la cabecera */
 #menu > li{
   float: left;
   text-align:center;
@@ -94,9 +95,16 @@ height: 70% ;
   color: white;
 }
 
+
+/* Estos valores controlan los divs del pie y su contenido */
+
 .pie > div{
 
-float: right;
+float: left;
+width: calc(40%/3);
+padding-left: 15%;
+padding-top: 1.8%;
+font-size: 1vw;
 }
 
 .pie > div > ul{
