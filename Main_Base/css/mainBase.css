@@ -85,10 +85,28 @@ background-color: #7c7c7c;
 
 .cuerpo{
 
-height: 75% ;
+height: 70% ;
 }
 
 .pie{
   background-color: black;
-  height: 20%;
+  height: 30%;
+  color: white;
+}
+
+.pie > div{
+
+float: right;
+}
+
+.pie > div > ul{
+
+list-style: none;
+
+}
+
+.pie > div > div{
+
+font-weight: 600;
+  
 }
