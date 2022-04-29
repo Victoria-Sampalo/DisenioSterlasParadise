@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    color: white;
   }
   
   html{
@@ -14,11 +15,11 @@
     margin: 0 auto;
     overflow: hidden;
     height: 100%;
-    background-color: rgb(181, 174, 152);
+    background-color: black;
 }
   
   .cabecera{
-  background-color: rgb(181, 174, 152);
+  background-color: black;
   height: 14%;
   /* si quieres darle una línea blanca al final de la cabecera como separador: border-bottom: white 2px solid;*/
   position: relative;
