@@ -92,11 +92,11 @@
   .pie{
     /*vlast shadow y aleo*/
     background-color: #302f2f;
+    float: left;
     border-top: solid 1px black;
     height: 30%;
     color: white;
     clear: both;
-    position:absolute;
     width: 100%;
   }
   
@@ -108,8 +108,8 @@
   float: left;
   width: calc(40%/3);
   padding-left: 15%;
-  padding-top: 1.8%;
-  font-size: 1vw;
+  padding-top: 1%;
+  font-size: 0.85vw;
   }
   
   .pie > div > ul{
@@ -127,5 +127,6 @@
   #pdf{
     clear: both;
     /*position:absolute;*/
+    height: 100%;
 
   }

@@ -763,9 +763,11 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: #280a2c;
+  background-color: #150517;
+  background-image: url("../img/menu.jpg");
   background-size: cover;
   padding: 60px 0;
+  opacity: 80%;
 }
 .cta h3 {
   color: #fff;
