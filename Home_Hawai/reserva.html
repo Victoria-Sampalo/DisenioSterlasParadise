@@ -10,7 +10,7 @@
   <meta content="reservas, hawai" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/logo.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
@@ -34,16 +34,16 @@
   <header id="header" class="d-flex align-items-center header-inner-pages">
     <div class="container-fluid d-flex align-items-center justify-content-lg-between">
 
-      <h1 class="logo me-auto me-lg-0"><a href="index.html">Valera</a></h1>
+      <h1 class="logo me-auto me-lg-0"><a href="index.html"><img src="assets/img/logo.png" /></a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
-          <li><a class="nav-link scrollto" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">Sobre Hawai</a></li>
+          <li><a class="nav-link scrollto" href="index.html#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="index.html#about">Sobre Hawai</a></li>
           <li><a class="nav-link scrollto" href="carta.html">Menu</a></li>
-          <li><a class="nav-link scrollto" href="#contact">Contacto</a></li>
+          <li><a class="nav-link scrollto" href="index.html#contact">Contacto</a></li>
           <li><a class="nav-link scrollto" href="#">Volver al portal</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -78,28 +78,37 @@
           Para reservar en Hawai, rellene el siguiente formulario y un asesor se pondrá en contacto con usted para
           garantizar su asistencia.
         </p>
-
-        <form action="reserva.html" method="post" role="form" class="php-email-form">
-          <div class="row">
-            <div class="col-md-6 form-group">
-              <input type="text" name="name" class="form-control" id="name" placeholder="Tu nombre" required>
+        <section id="reserva" class="reserva">
+          <form action="reserva.html" method="post" role="form" class="php-email-form">
+            <div class="row">
+              <div class="col-md-5 form-group">
+                <input type="text" name="name" class="form-control" id="name" placeholder="Tu nombre" required>
+              </div>
+              <div class="col-md-4 form-group mt-3 mt-md-0">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Tu email" required>
+              </div>
+              <div class="col-md-3 form-group mt-3 mt-md-0">
+                <input type="tel" class="form-control" name="telefono" id="telefono" placeholder="Tu telefono" required>
+              </div>
             </div>
-            <div class="col-md-6 form-group mt-3 mt-md-0">
-              <input type="email" class="form-control" name="email" id="email" placeholder="Tu email" required>
+            <p></p>
+            <div class="row">
+              <div class="col-md-6">
+                <input type="date" class="form-control" name="day" placeholder="Mensaje" required />
+              </div>
+              <div class="col-md-6 form-group mt-3 mt-md-0">
+                <input type="text" class="form-control" name="personas" id="personas" placeholder="Nº de personas" required>
+              </div>
+          </div>
+          <p></p>
+            <div class="my-3">
+              <div class="loading">Cargando</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Tu mensaje ha sido enviado.</div>
             </div>
-          </div>
-          <div class="form-group mt-3">
-            <input type="date" class="form-control" name="day" placeholder="Mensaje" required />
-          </div>
-          <div class="form-group mt-3">
-            <input type="text" class="form-control" name="personas" id="personas" placeholder="Nº de personas" required>
-          </div>
-          <div class="my-3">
-            <div class="error-message"></div>
-            <div class="sent-message"></div>
-          </div>
-          <div class="text-center"><button type="submit">Reservar</button></div>
-        </form>
+            <div class="text-center"><button type="submit">Reservar</button></div>
+          </form>
+        </section>
       </div>
     </section>
 
