@@ -1,0 +1,53 @@
+html{box-sizing: border-box;}
+*{padding: 0; margin: 0; box-sizing: inherit;}
+
+body{background-color: black ;
+    background-size:cover;}
+
+    /* 
+
+#central{color:white; 
+position: absolute;
+margin-right:auto; 
+top: 50%;
+left: 50%; 
+}  */
+
+#logo_principal{
+    position: absolute;
+margin-right:auto; 
+top: 50%;
+left: 50%; 
+
+
+}
+
+#central{color:white; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/***************+MENU***************/
+#menu ul{list-style:none;
+    overflow: hidden;
+    }
+
+
+#menu ul li{
+    float: left;
+    font-family: verdana;
+    height: 33px;
+    font-size:15px;
+    display:inline-block; /*add new*/
+    text-align:center; /*add new*/
+}
+    
+    #menu ul li a{color: white;
+    text-decoration: none;
+    display:block; /*hace que el puntero tome todas la casilla por el enlace*/
+    text-align:center;/*como contenido de bloque que es*/
+    line-height:33px;
+    padding:0 0.5em;
+    }
