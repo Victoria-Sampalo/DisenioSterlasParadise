@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        
 <!--
 Victory Template
 http://www.templatemo.com/tm-507-victory
@@ -10,7 +11,8 @@ http://www.templatemo.com/tm-507-victory
         <title>Cerdeña -ristorante italiano</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <link rel="icon" type="image/x-icon" href="img/logo_cerdenia_hover.png"/>
+       
 
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
@@ -18,6 +20,7 @@ http://www.templatemo.com/tm-507-victory
         <link rel="stylesheet" href="css/hero-slider.css">
         <link rel="stylesheet" href="css/owl-carousel.css">
         <link rel="stylesheet" href="css/templatemo-style.css">
+        <link rel="stylesheet" href="css/calendar.css">
 
         <link href="https://fonts.googleapis.com/css?family=Spectral:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
@@ -155,24 +158,21 @@ http://www.templatemo.com/tm-507-victory
                         <h4>Reserva</h4>
                         <form id="form-submit" action="" method="get">
                             <div class="row">
-                                <div class="col-md-6">
-                                    <fieldset>
-                                        <select required name='day' onchange='this.form.()'>
-                                            <option value="">Elige un día</option>
-                                            <option value="Monday">Lunes</option>
-                                            <option value="Tuesday">Marts</option>
-                                            <option value="Wednesday">Miércoles</option>
-                                            <option value="Thursday">Jueves</option>
-                                            <option value="Friday">Viernes</option>
-                                            <option value="Saturday">Sábado</option>
-                                            <option value="Sunday">Domingo</option>
-                                        </select>
-                                    </fieldset>
+                                <div class="col-md-6"> 
+                                    <!-- CALENDARIO RESERVA PRIMERA PARTE-->
+                                    <div class="calendar"></div>
+                                    <label for="start">Día:</label>
+                                   
+            <input type="date" id="start" name="trip-start"
+       value="2018-07-22"
+       min="2022-05-01" max="2022-08-31">
+    </div>
+                                   
                                 </div>
                                 <div class="col-md-6">
                                     <fieldset>
                                         <select required name='hour' onchange='this.form.()'>
-                                            <option value="">Seleccione hora</option>
+                                            
                                             <option value="10-00">10:00</option>
                                             <option value="12-00">12:00</option>
                                             <option value="14-00">14:00</option>
@@ -183,32 +183,24 @@ http://www.templatemo.com/tm-507-victory
                                         </select>
                                     </fieldset>
                                 </div>
-                                <div class="col-md-6">
-                                    <fieldset>
-                                        <input name="name" type="name" class="form-control" id="name" placeholder="Nombre" required>
-                                    </fieldset> 
-                                </div>
-                                <div class="col-md-6">
-                                    <fieldset>
-                                        <input name="phone" type="phone" class="form-control" id="phone" placeholder="Teléfono" required>
-                                    </fieldset>
-                                </div>
-                                <div class="col-md-6">
+                                 <div class="col-md-6">
                                     <fieldset>
                                         <select required class="person" name='persons' onchange='this.form.()'>
-                                            <option value="">Número de personas</option>
-                                            <option value="1-Person">1 Person</option>
-                                            <option value="2-Persons">2 Persons</option>
-                                            <option value="3-Persons">3 Persons</option>
-                                            <option value="4-Persons">4 Persons</option>
-                                            <option value="5-Persons">5 Persons</option>
-                                            <option value="6-Persons">6 Persons</option>
+                                            <option value="1-Person">1 Persona</option>
+                                            <option value="2-Persons">2 Personas</option>
+                                            <option value="3-Persons">3 Personas</option>
+                                            <option value="4-Persons">4 Personas</option>
+                                            <option value="5-Persons">5 Personas</option>
+                                            <option value="6-Persons">6 Personas</option>
+                                            <option value="6-Persons">7 Personas</option>
+                                            <option value="6-Persons">8 Personas</option>
+                                            <option value="6-Persons">9 Personas</option>
                                         </select>
                                     </fieldset>
                                 </div>
                                 <div class="col-md-6">
                                     <fieldset>
-                                        <button type="submit" id="form-submit" class="btn">Reservar mesa</button>
+                                        <button type="submit" id="form-submit" class="btn">Continuar</button>
                                     </fieldset>
                                 </div>
                             </div>
