@@ -154,7 +154,10 @@ bootstrap.min.css:5
     border-radius: 4px;
 }
 
+.menuWhite {
+    color:#ccc;
 
+  }
 .banner {
 	padding: 180px 0px;
 	background-image: url(../img/banner-bg.jpg);
