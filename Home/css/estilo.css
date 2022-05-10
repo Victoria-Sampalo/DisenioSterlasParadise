@@ -1,53 +1,78 @@
-html{box-sizing: border-box;}
-*{padding: 0; margin: 0; box-sizing: inherit;}
-
-body{background-color: black ;
-    background-size:cover;}
-
-    /* 
-
-#central{color:white; 
-position: absolute;
-margin-right:auto; 
-top: 50%;
-left: 50%; 
-}  */
-
-#logo_principal{
-    position: absolute;
-margin-right:auto; 
-top: 50%;
-left: 50%; 
-
-
+html {
+    box-sizing: border-box;
 }
 
-#central{color:white; 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+body {
+    background-color: black;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#central {
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 /***************+MENU***************/
-#menu ul{list-style:none;
+#menu {
+    text-align: center;
+    width: 100%;
+    border: 2px solid rgb(255, 255, 255);
+    position: relative;
+}
+
+#menu ul {
+    list-style: none;
     overflow: hidden;
-    }
+    margin-left: 13%;
+}
 
-
-#menu ul li{
+#menu ul li {
+    width: 25%;
     float: left;
     font-family: verdana;
-    height: 33px;
-    font-size:15px;
-    display:inline-block; /*add new*/
-    text-align:center; /*add new*/
+    display: block; /* inline-block;*/
+    margin-left: -3em;
+    /*add new*/
+    text-align: center;
+    /*add new*/
 }
-    
-    #menu ul li a{color: white;
-    text-decoration: none;
-    display:block; /*hace que el puntero tome todas la casilla por el enlace*/
-    text-align:center;/*como contenido de bloque que es*/
-    line-height:33px;
-    padding:0 0.5em;
-    }
+
+#menu ul li:hover {
+    width: 25%;
+    float: left;
+    font-family: verdana;
+    display: block; /* inline-block;*/
+    margin-left: -3em;
+    /*add new*/
+    text-align: center;
+    /*add new*/
+}
+
+#menu ul li a {
+    display: block;
+    /*hace que el puntero tome todas la casilla por el enlace*/
+    text-align: center;
+    /*como contenido de bloque que es*/
+    padding: 0 0.5em;
+}
+
+.brasas {
+    background-image: url(../../Logos_Hover_Iconos/logo_brasas_london_hover.png);
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.brasas:hover {
+    background-image: url(../../Logos_Hover_Iconos/logo_brasas_london_hover.png);
+}

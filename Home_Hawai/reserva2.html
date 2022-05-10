@@ -82,45 +82,19 @@
           <form action="reserva.html" method="post" role="form" class="php-email-form">
             <div class="row">
               <div class="col-md-6 form-group">
-                <select class="form-control" name="zona">
-                  <option class="form-control" name="zona" id="#">Zona</option>
-                  <option class="form-control" name="zona" id="int">Interior</option>
-                  <option class="form-control" name="zona" id="ext">Exterior</option>
-                </select>
+                <input type="text" name="name" class="form-control" id="name" placeholder="Tu nombre" maxlength="50" required>
               </div>
-              <div class="col-md-6 form-group">
-                <select class="form-control" name="personas">
-                  <option class="form-control" name="personas" id="#">Nº de personas*</option>
-                  <option class="form-control" name="personas" id="1">1</option>
-                  <option class="form-control" name="personas" id="2">2</option>
-                  <option class="form-control" name="personas" id="3">3</option>
-                  <option class="form-control" name="personas" id="4">4</option>
-                  <option class="form-control" name="personas" id="5">5</option>
-                  <option class="form-control" name="personas" id="6">6</option>
-                  <option class="form-control" name="personas" id="7">7</option>
-                  <option class="form-control" name="personas" id="8">8</option>
-                  <option class="form-control" name="personas" id="9">9</option>
-                </select>
+              <div class="col-md-6 form-group mt-3 mt-md-0">
+                <input type="text" class="form-control" name="ape" id="ape" placeholder="Tu apellido" maxlength="50" required>
               </div>
             </div>
             <p></p>
             <div class="row">
               <div class="col-md-4">
-                <input type="date" class="form-control" name="fecha" placeholder="Fecha" required />
+                <input type="tel" class="form-control" name="tel" placeholder="Tu telefono" required />
               </div>
               <div class="col-md-8 form-group mt-3 mt-md-0">
-                <select class="form-control" name="hora">
-                  <option class="form-control" name="hora" id="#">Hora</option>
-                  <option class="form-control" name="hora" id="12">12:00</option>
-                  <option class="form-control" name="hora" id="1230">12:30</option>
-                  <option class="form-control" name="hora" id="13">13:00</option>
-                  <option class="form-control" name="hora" id="1330">13:30</option>
-                  <option class="form-control" name="hora" id="14">14:00</option>
-                  <option class="form-control" name="hora" id="1430">14:30</option>
-                  <option class="form-control" name="hora" id="15">15:00</option>
-                  <option class="form-control" name="hora" id="1530">15:30</option>
-                  <option class="form-control" name="hora" id="16">16:00</option>
-                </select>
+                <input type="email" class="form-control" name="email" id="email" placeholder="Tu email" required>
               </div>
           </div>
           <p></p>
@@ -131,8 +105,6 @@
             </div>
             <div class="text-center"><button type="submit">Reservar</button></div>
           </form>
-          <p></p>
-          <p>* Para reservas de más de 9 personas, contactar por telefono.</p>
         </section>
       </div>
     </section>
