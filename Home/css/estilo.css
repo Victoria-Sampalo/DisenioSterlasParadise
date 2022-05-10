@@ -25,7 +25,9 @@ body {
 /***************+MENU***************/
 #menu {
     text-align: center;
-    width: 100%
+    width: 100%;
+    border: 2px solid rgb(255, 255, 255);
+    position: relative;
 }
 
 #menu ul {
@@ -34,18 +36,23 @@ body {
     margin-left: 13%;
 }
 
-.submenu {
-    position:relative;
-    width: 10%;
-    
-
-}
-
 #menu ul li {
+    width: 25%;
     float: left;
     font-family: verdana;
     display: block; /* inline-block;*/
-    margin: 1em;
+    margin-left: -3em;
+    /*add new*/
+    text-align: center;
+    /*add new*/
+}
+
+#menu ul li:hover {
+    width: 25%;
+    float: left;
+    font-family: verdana;
+    display: block; /* inline-block;*/
+    margin-left: -3em;
     /*add new*/
     text-align: center;
     /*add new*/
@@ -59,3 +66,13 @@ body {
     padding: 0 0.5em;
 }
 
+.brasas {
+    background-image: url(../../Logos_Hover_Iconos/logo_brasas_london_hover.png);
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.brasas:hover {
+    background-image: url(../../Logos_Hover_Iconos/logo_brasas_london_hover.png);
+}
