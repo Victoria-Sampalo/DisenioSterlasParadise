@@ -11,8 +11,6 @@ html {
 body {
     background-color: black;
     background-size: cover;
-    width: 100%;
-    height: 100%;
 }
 
 #central {
@@ -23,56 +21,62 @@ body {
 }
 
 /***************+MENU***************/
-#menu {
-    text-align: center;
-    width: 100%;
-    border: 2px solid rgb(255, 255, 255);
-    position: relative;
+
+
+#restaurantes{
+    display: flex;
+    justify-content: center;
+    
 }
 
-#menu ul {
-    list-style: none;
-    overflow: hidden;
-    margin-left: 13%;
+#brasas{
+    background-image: url(../images/logo_brasas_london.png);
+    background-repeat: no-repeat;
+
 }
 
-#menu ul li {
-    width: 25%;
-    float: left;
-    font-family: verdana;
-    display: block; /* inline-block;*/
-    margin-left: -3em;
-    /*add new*/
-    text-align: center;
-    /*add new*/
+#brasas:hover{
+    background-image: url(../images/logo_brasas_london_hover.png);
+    background-repeat: no-repeat;
 }
 
-#menu ul li:hover {
-    width: 25%;
-    float: left;
-    font-family: verdana;
-    display: block; /* inline-block;*/
-    margin-left: -3em;
-    /*add new*/
-    text-align: center;
-    /*add new*/
+#cerenya{
+    background-image: url(../images/logo_cerdenia.png);
+    background-repeat: no-repeat;
 }
 
-#menu ul li a {
-    display: block;
-    /*hace que el puntero tome todas la casilla por el enlace*/
-    text-align: center;
-    /*como contenido de bloque que es*/
-    padding: 0 0.5em;
+#cerenya:hover{
+    background-image: url(../images/logo_cerdenia_hover.png);
+    background-repeat: no-repeat;
 }
 
-.brasas {
-    background-image: url(../../Logos_Hover_Iconos/logo_brasas_london_hover.png);
-    width: 100%;
-    height: 100%;
-    display: block;
+#hawai{
+    background-image: url(../images/logo_hawaii.png);
+    background-repeat: no-repeat;
 }
 
-.brasas:hover {
-    background-image: url(../../Logos_Hover_Iconos/logo_brasas_london_hover.png);
+#hawai:hover{
+    background-image: url(../images/logo_hawaii_hover.png);
+    background-repeat: no-repeat;
 }
+
+#marbella{
+    background-image: url(../images/logo_marbella.png);
+    background-repeat: no-repeat;
+}
+
+#marbella:hover{
+    background-image: url(../images/logo_marbella_hover.png);
+    background-repeat: no-repeat;
+}
+
+.float{
+    float:left;
+}
+
+.tamanio{
+    width:300px;
+    height:300px;
+}
+
+
