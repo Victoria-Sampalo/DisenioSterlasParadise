@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #ffb03b;
+  background: #8a785d;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -49,7 +49,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 0;
 }
 .back-to-top:hover {
-  background: #ffc064;
+  background: #8a785d;
   color: #fff;
 }
 .back-to-top.active {
@@ -76,7 +76,7 @@ h1, h2, h3, h4, h5, h6 {
   top: -50px;
 }
 #topbar i {
-  color: #ffb03b;
+  color: #8a785d;
   line-height: 0;
 }
 #topbar i span {
@@ -124,7 +124,7 @@ h1, h2, h3, h4, h5, h6 {
 # Book a table button Menu
 --------------------------------------------------------------*/
 .book-a-table-btn {
-  background: #ffb03b;
+  background: #8a785d;
   color: #fff;
   border-radius: 50px;
   margin: 0 0 0 20px;
@@ -136,7 +136,7 @@ h1, h2, h3, h4, h5, h6 {
   white-space: nowrap;
 }
 .book-a-table-btn:hover {
-  background: #ffa012;
+  background: #8a785d;
   color: #fff;
 }
 @media (max-width: 992px) {
@@ -183,7 +183,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 5px;
 }
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #ffb03b;
+  color: #8a785d;
 }
 .navbar .dropdown ul {
   display: block;
@@ -213,7 +213,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 12px;
 }
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  color: #ffb03b;
+  color: #8a785d;
 }
 .navbar .dropdown:hover > ul {
   opacity: 1;
@@ -296,7 +296,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #433f39;
 }
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #ffb03b;
+  color: #8a785d;
 }
 .navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
   margin: 15px;
@@ -322,7 +322,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 12px;
 }
 .navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
-  color: #ffb03b;
+  color: #8a785d;
 }
 .navbar-mobile .dropdown > .dropdown-active {
   display: block;
@@ -374,7 +374,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
 }
 #hero h2 span {
-  color: #ffb03b;
+  color: #8a785d;
 }
 #hero p {
   width: 80%;
@@ -442,10 +442,10 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
   color: #fff;
-  border: 2px solid #ffb03b;
+  border: 2px solid #8a785d;
 }
 #hero .btn-menu:hover, #hero .btn-book:hover {
-  background: #ffb03b;
+  background: #8a785d;
   color: #fff;
 }
 @media (max-width: 768px) {
@@ -484,7 +484,7 @@ section {
   color: #5f5950;
 }
 .section-title h2 span {
-  color: #ffb03b;
+  color: #8a785d;
 }
 .section-title p {
   margin: 15px auto 0 auto;
@@ -585,7 +585,7 @@ section {
 }
 .about .content ul i {
   font-size: 20px;
-  color: #ffb03b;
+  color: #8a785d;
   position: absolute;
   left: 0;
   top: 2px;
@@ -603,7 +603,7 @@ section {
 .about .play-btn {
   width: 94px;
   height: 94px;
-  background: radial-gradient(#ffb03b 50%, rgba(255, 176, 59, 0.4) 52%);
+  background: radial-gradient(#8a785d 50%, rgba(255, 176, 59, 0.4) 52%);
   border-radius: 50%;
   display: block;
   position: absolute;
@@ -648,7 +648,7 @@ section {
   background: rgba(198, 16, 0, 0);
 }
 .about .play-btn:hover::after {
-  border-left: 15px solid #ffb03b;
+  border-left: 15px solid #8a785d;
   transform: scale(20);
 }
 .about .play-btn:hover::before {
@@ -733,7 +733,7 @@ section {
   padding: 0;
 }
 .why-us .box:hover {
-  background: #ffb03b;
+  background: #8a785d;
   padding: 30px 30px 70px 30px;
   box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.18);
 }
@@ -762,12 +762,12 @@ section {
   margin: 0 3px 10px 3px;
   transition: all ease-in-out 0.3s;
   background: #fff;
-  border: 2px solid #ffb03b;
+  border: 2px solid #8a785d;
   border-radius: 50px;
 }
 .menu #menu-flters li:hover, .menu #menu-flters li.filter-active {
   color: #fff;
-  background: #ffb03b;
+  background: #8a785d;
 }
 .menu #menu-flters li:last-child {
   margin-right: 0;
@@ -795,7 +795,7 @@ section {
   position: relative;
   z-index: 3;
   font-weight: 700;
-  color: #ff9b08;
+  color: #8a785d;
 }
 .menu .menu-content span {
   background: #fff;
@@ -831,11 +831,11 @@ section {
   font-size: 15px;
 }
 .specials .nav-link:hover {
-  color: #ffb03b;
+  color: #8a785d;
 }
 .specials .nav-link.active {
-  color: #ffb03b;
-  border-color: #ffb03b;
+  color: #8a785d;
+  border-color: #8a785d;
 }
 .specials .tab-pane.active {
   -webkit-animation: fadeIn 0.5s ease-out;
@@ -860,7 +860,7 @@ section {
   }
   .specials .nav-link.active {
     color: #fff;
-    background: #ffb03b;
+    background: #8a785d;
   }
 }
 
@@ -902,7 +902,7 @@ section {
 .events .event-item h3 {
   font-weight: 600;
   font-size: 26px;
-  color: #ffb03b;
+  color: #8a785d;
 }
 .events .event-item .price {
   font-size: 26px;
@@ -911,7 +911,7 @@ section {
   margin-bottom: 15px;
 }
 .events .event-item .price span {
-  border-bottom: 2px solid #ffb03b;
+  border-bottom: 2px solid #8a785d;
 }
 .events .event-item ul {
   list-style: none;
@@ -923,7 +923,7 @@ section {
 .events .event-item ul i {
   font-size: 20px;
   padding-right: 4px;
-  color: #ffb03b;
+  color: #8a785d;
 }
 .events .event-item p:last-child {
   margin-bottom: 0;
@@ -939,7 +939,7 @@ section {
   opacity: 1;
 }
 .events .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #ffb03b;
+  background-color: #8a785d;
 }
 
 /*--------------------------------------------------------------
@@ -1010,7 +1010,7 @@ section {
   padding: 10px 12px;
 }
 .book-a-table .php-email-form button[type=submit] {
-  background: #ffb03b;
+  background: #8a785d;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1018,7 +1018,7 @@ section {
   border-radius: 50px;
 }
 .book-a-table .php-email-form button[type=submit]:hover {
-  background: #ffa012;
+  background: #8a785d;
 }
 
 /*--------------------------------------------------------------
@@ -1114,7 +1114,7 @@ section {
   color: #7a7368;
 }
 .chefs .member .social a:hover {
-  color: #ffb03b;
+  color: #8a785d;
 }
 .chefs .member .social i {
   font-size: 16px;
@@ -1180,7 +1180,7 @@ section {
   font-family: "Comic Neue", sans-serif;
 }
 .testimonials .testimonial-item .stars {
-  color: #ffb03b;
+  color: #8a785d;
   margin-bottom: 10px;
 }
 .testimonials .testimonial-item .quote-icon-left, .testimonials .testimonial-item .quote-icon-right {
@@ -1214,7 +1214,7 @@ section {
   opacity: 1;
 }
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #ffb03b;
+  background-color: #8a785d;
 }
 @media (min-width: 992px) {
   .testimonials .testimonial-item p {
@@ -1234,7 +1234,7 @@ section {
 }
 .contact .info i {
   font-size: 20px;
-  color: #ffb03b;
+  color: #8a785d;
   float: left;
   width: 44px;
   height: 44px;
@@ -1260,7 +1260,7 @@ section {
   color: #7a7368;
 }
 .contact .info:hover i {
-  background: #ffb03b;
+  background: #8a785d;
   color: #fff;
 }
 .contact .php-email-form {
@@ -1318,7 +1318,7 @@ section {
   padding: 10px 12px;
 }
 .contact .php-email-form button[type=submit] {
-  background: #ffb03b;
+  background: #8a785d;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1326,7 +1326,7 @@ section {
   border-radius: 50px;
 }
 .contact .php-email-form button[type=submit]:hover {
-  background: #ffa012;
+  background: #8a785d;
 }
 @-webkit-keyframes animate-loading {
   0% {
@@ -1358,7 +1358,7 @@ section {
 #footer h3 {
   font-size: 36px;
   font-weight: 700;
-  color: #ffb03b;
+  color: #8a785d;
   position: relative;
   padding: 0;
   margin: 0 0 15px 0;
@@ -1387,7 +1387,7 @@ section {
   transition: 0.3s;
 }
 #footer .social-links a:hover {
-  background: #ffb03b;
+  background: #8a785d;
 }
 #footer .copyright {
   margin: 0 0 5px 0;
