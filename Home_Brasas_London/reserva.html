@@ -50,22 +50,15 @@
     <section class="inner-page">
         <div class="container">
             <p>
-                Para reservar en Hawai, rellene el siguiente formulario y un asesor se pondrá en contacto con usted para
+                Para reservar en Brasas London, rellene el siguiente formulario y un asesor se pondrá en contacto con usted para
                 garantizar su asistencia.
             </p>
             <section id="reserva" class="reserva">
                 <form action="reserva.html" method="post" role="form" class="php-email-form">
                     <div class="row">
                         <div class="col-md-6 form-group">
-                            <select class="form-control" name="zonas">
-                                <option class="form-control" name="zonas">Zona</option>
-                                <option class="form-control" name="zonas" id="int">Interior</option>
-                                <option class="form-control" name="zonas" id="ext">Exterior</option>
-                            </select>
-                        </div>
-                        <div class="col-md-6 form-group">
-                            <select class="form-control" name="numpersonas">
-                                <option class="form-control" name="numpersonas">Nº de personas*</option>
+                            <select class="form-control" name="numpersonas" required>
+                                <option class="form-control" name="numpersonas" value="" disabled selected hidden>Nº de personas*</option>
                                 <option class="form-control" name="numpersonas" id="1">1</option>
                                 <option class="form-control" name="numpersonas" id="2">2</option>
                                 <option class="form-control" name="numpersonas" id="3">3</option>
