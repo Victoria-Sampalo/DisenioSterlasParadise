@@ -1193,7 +1193,9 @@ section.map #map {
 # Reservas
 --------------------------------------------------------------*/
 #divEspacio {
-	height: 450px;
+	height: 400px;
+	padding-top: 60px;
+
 }
 
 
